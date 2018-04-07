@@ -1,0 +1,94 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li a {
+  padding: 15px;
+  color: black;
+}
+li {
+  float: left;
+}
+.main-header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+.header-right {
+  margin-right: 15px;
+  float: right;
+}
+
+.image {
+  width: 100%;
+}
+.ETQ {
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.Men {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+}
+.Women {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+}
+.Journal {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+}
+.Search {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  padding: 30px;
+  display: block;
+}
+.Help {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+}
+.Account {
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  display: block;
+  padding: 30px;
+}
+.partMen {
+  margin-top: 100px;
+}
+.partMenImg {
+  width: 90%;
+  height: 100%;
+}
+.title {
+  font-weight: 500;
+}

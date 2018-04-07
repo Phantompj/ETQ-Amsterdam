@@ -1,0 +1,205 @@
+.btnPre {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 35px;
+  display: inline-block;
+  outline: none;
+}
+.btnNext {
+  position: absolute;
+  bottom: 15px;
+  left: 55px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 35px;
+  display: inline-block;
+}
+
+img {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+p {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+a,
+lable {
+  animation: fadein 3s;
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*Start state animation image*/
+.fade-enter {
+  right: 100px;
+}
+.fade-enter-active {
+  right: 0px;
+  transition: 0.5s ease-in all;
+}
+/*End state animation image*/
+.textHeader {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text1 {
+  color: #313131;
+  font-weight: 500;
+  font-size: 1.09244rem;
+}
+.text2 {
+  font-size: 2.10084rem;
+  font-weight: 400;
+}
+.top-body {
+  position: absolute;
+  top: 100%;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+}
+.texttitle {
+  font-weight: 500;
+}
+.textcontent {
+  margin-top: -15px;
+}
+.introtext {
+  padding: 100px 7px;
+  color: black;
+}
+.centercontain {
+  position: absolute;
+  top: 165%;
+  height: auto;
+}
+.imgcenc {
+  width: 561px;
+  height: 421px;
+}
+.leftct {
+  float: left;
+  padding: 30px;
+}
+.rightct {
+  float: right;
+  padding: 30px;
+}
+.bottomcontain {
+  position: absolute;
+  top: 280%;
+  height: auto;
+}
+.partbototm {
+  float: left;
+  padding: 15px;
+  margin-left: 10px;
+}
+.bottomimg {
+  width: 270px;
+  height: 270px;
+}
+.partvideo {
+  width: 270px;
+  height: 270px;
+}
+.textbototm {
+  width: 270px;
+}
+.footerpage {
+  position: absolute;
+  top: 370%;
+  height: auto;
+  width: 100%;
+}
+.part1footer {
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+.part2footer {
+  float: left;
+  width: 12%;
+  margin-left: 40px;
+}
+.afooter {
+  color: black;
+  font-weight: 500;
+}
+.pfooter {
+  font-weight: 300;
+  color: black;
+}
+.notepage {
+  position: absolute;
+  top: 395%;
+  height: auto;
+  padding: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.leftnote {
+  float: left;
+  width: 35%;
+}
+.rightnote {
+  float: left;
+  width: 65%;
+}
+.inputnote {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  border-radius: 0;
+  color: none;
+  outline: none;
+  height: 16px;
+}
+.btnnote {
+  border: none;
+  background: none;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
